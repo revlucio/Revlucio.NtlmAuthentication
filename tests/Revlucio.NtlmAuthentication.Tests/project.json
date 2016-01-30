@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "xunit": "2.1.0-*",
+        "xunit.runner.dnx": "2.1.0-*",
+        "Microsoft.AspNet.TestHost": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Hosting": "1.0.0-rc1-final",
+        "Revlucio.NtlmAuthentication": ""
+    },
+    "commands": {
+        "kestrel": "Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5004",
+        "test": "xunit.runner.dnx"
+    },
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": { }
+    }
+}
